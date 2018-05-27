@@ -1,0 +1,46 @@
+{
+   "globals": {
+      "FusionCharts": true,
+      "window": true
+   },
+   "extends": [
+      "airbnb-base",
+      "prettier"
+   ],
+   "env": {
+      "node": true
+   },
+   "parserOptions": {
+      "parser": "babel-eslint"
+   },
+   "rules": {
+      "no-console": "off",
+      "import/no-extraneous-dependencies": [
+         "error",
+         {
+            "devDependencies": true
+         }
+      ],
+      "no-param-reassign": [
+         "error",
+         {
+            "props": false
+         }
+      ],
+      "no-underscore-dangle": "off",
+      "no-unused-vars": [
+         "error",
+         {
+            "vars": "all",
+            "args": "none",
+            "ignoreRestSiblings": false
+         }
+      ],
+      "no-unused-expressions": [
+         "error",
+         {
+            "allowShortCircuit": true
+         }
+      ]
+   }
+}

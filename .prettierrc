@@ -1,0 +1,8 @@
+{
+   "useTabs": false,
+   "printWidth": 120,
+   "tabWidth": 3,
+   "singleQuote": true,
+   "trailingComma": "es5",
+   "prettier.eslintIntegration": true
+}
